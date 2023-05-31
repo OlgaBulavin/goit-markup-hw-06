@@ -218,6 +218,11 @@
     color: #757575;
     background-color: #FFFFFF;
   }
+  
+  .contact-form-checkbox-label:focus {
+    border-radius: 2px;
+    border: 2px solid #188CE8;
+  }
 
   .contact-form-checkbox {
   margin-bottom: 10px;
@@ -238,11 +243,6 @@
 
   .contact-checkbox {
     margin-left: 13px;
-  }
-
-  .contact-checkbox:focus {
-    border-color: var(--accent-color);
-    border: 2px solid #188CE8;
   }
   
   .checkbox-link {
@@ -283,18 +283,18 @@
     border-bottom: 1px solid #ececec;
   }
   
-  .header-container {
+  .header__container {
     display: flex;
     align-items: center;
   }
   
-  .container .header-container {
+  .container .header__container {
     display: flex;
     align-items: center;
     height: 80px;
   }
   
-  .navigation {
+  .header__menu {
     display: flex;
     align-items: center;
   }
@@ -386,7 +386,7 @@
     flex-wrap: wrap;
   }
   
-  .logo {
+  .header__logo {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 26px;
@@ -395,7 +395,7 @@
     text-decoration: none;
   }
   
-  .logo.link {
+  .header__logo.link {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -916,7 +916,7 @@
     margin-top: 20px;
   }
   
-  footer .logo {
+  .footer__logo {
     font-family: Raleway;
     color: var(--title-text-color);
     font-weight: 700;
