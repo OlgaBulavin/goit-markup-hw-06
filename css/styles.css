@@ -239,6 +239,10 @@
   .contact-checkbox {
     margin-left: 13px;
   }
+
+  .contact-checkbox:focus {
+    border-color: var(--accent-color);
+  }
   
   .checkbox-link {
   color: rgba(33, 150, 243, 1);
