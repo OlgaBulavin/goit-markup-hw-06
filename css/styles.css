@@ -242,6 +242,7 @@
 
   .contact-checkbox:focus {
     border-color: var(--accent-color);
+    border: 2px solid #188CE8;
   }
   
   .checkbox-link {
