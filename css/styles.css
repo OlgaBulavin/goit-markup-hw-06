@@ -226,11 +226,6 @@
   border: 2px solid #212121;
   color: var(--accent-color)
   }
-  
-  .contact-form-checkbox:focus {
-    border-radius: 2px;
-    border: 2px solid #2196f3;
-  }
 
   .contact-form-checkbox:checked {
     background-color:  #2196f3;
@@ -241,6 +236,11 @@
   background-color: var(--accent-color);
   border-color:  #2196f3;
     outline-offset: 2px;
+  }
+
+  .contact-form-checkbox:focus + .contact-form-checkbox-label .black-border {
+    border-radius: 2px;
+    border: 2px solid #2196f3;
   }
 
   .contact-checkbox {
